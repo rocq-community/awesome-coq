@@ -60,7 +60,7 @@ Contributions welcome! Read the [contribution guidelines](https://github.com/coq
 - [VsCoq](https://github.com/coq-community/vscoq) - Language server and extension for the Visual Studio Code and VSCodium editors.
 - [VsCoq Legacy](https://github.com/coq-community/vscoq/tree/vscoq1) - Backwards-compatible extension for the Visual Studio Code and VSCodium editors using Coq's legacy XML protocol.
 - [Waterproof editor](https://github.com/impermeable/waterproof) - Educational environment for writing mathematical proofs in interactive notebooks.
-- [Tree Sitter Coq](https://github.com/lamg/tree-sitter-coq) - Tree Sitter Coq grammar useful for working with text editors like [Helix](https://github.com/helix-editor/helix).
+- [Tree Sitter Rocq](https://github.com/lamg/tree-sitter-rocq) - Tree Sitter Rocq grammar useful for working with text editors like [Helix](https://github.com/helix-editor/helix).
 
 ### Libraries
 
