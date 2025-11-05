@@ -51,11 +51,11 @@ Contributions welcome! Read the [contribution guidelines](https://github.com/coq
 
 - [CoqIDE](https://coq.inria.fr/refman/practical-tools/coqide.html) - Standalone graphical tool for interacting with Coq.
 - [Coqtail](https://github.com/whonore/Coqtail) - Interface for Coq based on the Vim text editor.
-- [Coq LSP](https://github.com/ejgallego/coq-lsp) - Language server and extension for the Visual Studio Code and VSCodium editors with custom document checking engine.
+- [Rocq LSP](https://github.com/ejgallego/rocq-lsp) - Language server supporting LSP, including a client for Visual Studio Code and VSCodium. Other editors are supported independently.
 - [Proof General](https://proofgeneral.github.io) - Generic interface for proof assistants based on the extensible, customizable text editor Emacs.
 - [Company-Coq](https://github.com/cpitclaudel/company-coq) - IDE extensions for Proof General's Coq mode.
 - [opam-switch-mode](https://github.com/ProofGeneral/opam-switch-mode) - IDE extension for Proof General to locally change or reset the opam switch from a menu or using a command.
-- [jsCoq](https://github.com/jscoq/jscoq) - Port of Coq to JavaScript, which enables running Coq projects in a browser.
+- [jsCoq](https://github.com/jscoq/jscoq) - Port of Rocq to JavaScript, which enables running Rocq projects in a browser.
 - [Jupyter kernel for Coq](https://github.com/EugeneLoy/coq_jupyter) - Coq support for the Jupyter Notebook web environment.
 - [VsCoq](https://github.com/coq-community/vscoq) - Language server and extension for the Visual Studio Code and VSCodium editors.
 - [VsCoq Legacy](https://github.com/coq-community/vscoq/tree/vscoq1) - Backwards-compatible extension for the Visual Studio Code and VSCodium editors using Coq's legacy XML protocol.
@@ -102,7 +102,7 @@ Contributions welcome! Read the [contribution guidelines](https://github.com/coq
 - [Docker-Coq](https://github.com/coq-community/docker-coq) - Docker images for many versions of Coq.
 - [Docker-MathComp](https://github.com/math-comp/docker-mathcomp) - Docker images for many combinations of versions of Coq and the Mathematical Components library.
 - [Docker-Coq GitHub Action](https://github.com/marketplace/actions/docker-coq-action) - GitHub container action that can be used with Docker-Coq or Docker-MathComp.
-- [Dune](https://dune.build) - Composable and opinionated build system for OCaml and Coq (former jbuilder).
+- [Dune](https://dune.build) - Composable and opinionated build system for OCaml and Rocq).
 - [Nix](https://nixos.org/nix/) - Package manager for Linux and other Unix systems, supporting atomic upgrades and rollbacks.
 - [Nix Coq packages](https://search.nixos.org/packages?channel=unstable&query=coqPackages) - Collection of Coq-related packages for Nix.
 - [opam](https://opam.ocaml.org) - Flexible and Git-friendly package manager for OCaml and Coq with multiple compiler support.
@@ -161,11 +161,13 @@ Contributions welcome! Read the [contribution guidelines](https://github.com/coq
 - [Menhir](http://gallium.inria.fr/~fpottier/menhir/) - Parser generator that can output Coq code for verified parsers.
 - [mCoq](https://github.com/EngineeringSoftware/mcoq) - Mutation analysis tool for Coq projects.
 - [Ott](https://github.com/ott-lang/ott) - Tool for writing definitions of programming languages and calculi that can be translated to Coq.
-- [PyCoq](https://github.com/ejgallego/pycoq) - Set of bindings and libraries for interacting with Coq from inside Python 3.
+- [PyCoq](https://github.com/ejgallego/pycoq) - [deprecated, use rocq-lsp python clients instead] Set of bindings and libraries for interacting with Coq from inside Python 3.
+- [Pytanque](https://github.com/LLM4Rocq/pytanque) - Pytanque is a Python API for lightweight communication with the Rocq proof assistant via rocq-lsp, with Software Engineering and Machine Learning applications
+- [rocq-mcp](https://github.com/LLM4Rocq/rocq-mcp) - An MCP server for Rocq that can be used by MCP-compatible clients (like Claude Desktop).
 - [Rocqnavi](https://github.com/affeldt-aist/rocqnavi) - Fork of coq2html that adds indexes, clickable notations, Markdown and LaTeX formatting in comments, and more.
 - [Roosterize](https://github.com/EngineeringSoftware/roosterize) - Tool for suggesting lemma names in Coq projects.
 - [Sail](https://github.com/rems-project/sail) - Tool for specifying instruction set architecture (ISA) semantics of processors and generating Coq definitions.
-- [SerAPI](https://github.com/ejgallego/coq-serapi) - Tools and OCaml library for (de)serialization of Coq code to and from JSON and S-expressions.
+- [SerAPI](https://github.com/rocq-archive/coq-serapi) - [deprecated as of Rocq 9.0, use rocq-lsp instead] Tools and OCaml library for (de)serialization of Coq code to and from JSON and S-expressions.
 - [Trakt](https://github.com/ecranceMERCE/trakt) - Generic goal preprocessing tool for proof automation tactics.
 
 ### Type Theory and Mathematics
