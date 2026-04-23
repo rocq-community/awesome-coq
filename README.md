@@ -136,6 +136,7 @@ Contributions welcome! Read the [contribution guidelines](https://github.com/coq
 - [Natural Number Game](https://github.com/uncomputable/natural-number-game) - Coq version of the natural number game developed for the Lean prover.
 - [Sudoku](https://github.com/coq-community/sudoku) - Formalization and solver of the Sudoku number-placement puzzle in Coq.
 - [T2048](https://github.com/thery/T2048) - Coq version of the 2048 sliding tile game.
+- [Rocq Type Theory Game](https://rocq-game.kpi.fei.tuke.sk/) - Online Rocq Type Theory Game, Learn type theory through interactive proofs.
 
 ### Tools
 
