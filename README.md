@@ -289,3 +289,4 @@ Contributions welcome! Read the [contribution guidelines](https://github.com/coq
 - [MathComp Tutorial Materials](https://github.com/math-comp/tutorial_material) - Source code for Mathematical Components tutorials.
 - [Mike Nahas's Coq Tutorial](https://mdnahas.github.io/doc/nahas_tutorial.html) - Basics of using Coq to write formal proofs.
 - [Tricks in Coq](https://github.com/coq-community/coq-tricks) - Tips, tricks, and features in Coq that are hard to discover.
+- [Verified Extraction Hardening](https://github.com/cosmindxu/verified-extraction-hardening) - Worked example of extracting Rocq programs to Rust via MetaRocq typed erasure and consuming them from Python, with proofs deriving safe integer domains for the extracted code and notes on the pitfalls (numeric-width remaps, FFI, panics).
