@@ -162,6 +162,7 @@ Contributions welcome! Read the [contribution guidelines](https://github.com/coq
 - [mCoq](https://github.com/EngineeringSoftware/mcoq) - Mutation analysis tool for Coq projects.
 - [Ott](https://github.com/ott-lang/ott) - Tool for writing definitions of programming languages and calculi that can be translated to Coq.
 - [PyCoq](https://github.com/ejgallego/pycoq) - Set of bindings and libraries for interacting with Coq from inside Python 3.
+- [rocq-live](https://github.com/kylezh/rocq-live) - Command-line tool and MCP server that gives coding agents live proof sessions on project files, with automatic load-path setup, trying several tactics at once, and audits for admits and axioms.
 - [Rocqnavi](https://github.com/affeldt-aist/rocqnavi) - Fork of coq2html that adds indexes, clickable notations, Markdown and LaTeX formatting in comments, and more.
 - [Roosterize](https://github.com/EngineeringSoftware/roosterize) - Tool for suggesting lemma names in Coq projects.
 - [Sail](https://github.com/rems-project/sail) - Tool for specifying instruction set architecture (ISA) semantics of processors and generating Coq definitions.
